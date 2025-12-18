@@ -34,10 +34,6 @@ title: "{{ temple.name }}"
       <tr><th>Notes</th><td><ul>{% for n in temple.notes %}<li>{{ n }}</li>{% endfor %}</ul></td></tr>
       {% endif %}
     </table>
-
-    <nav class="back-nav">
-      <a href="{{ '/' | url }}">← Back to all temples</a>
-    </nav>
   </div>
 </article>
 
