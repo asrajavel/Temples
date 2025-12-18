@@ -235,5 +235,31 @@ a:hover {
   .temples-grid {
     grid-template-columns: 1fr;
   }
+
+  .temple-details,
+  .temple-details tbody,
+  .temple-details tr,
+  .temple-details th,
+  .temple-details td {
+    display: block;
+    width: 100%;
+  }
+
+  .temple-details tr {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .temple-details th {
+    padding: 0 0 0.25rem 0;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .temple-details td {
+    padding: 0;
+  }
 }
 
