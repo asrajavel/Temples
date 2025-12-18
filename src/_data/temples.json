@@ -94,5 +94,70 @@
       "The oil used for the Ennai Kappu ceremony is collected in a well and sold to devotees, as it is considered a medicinal cure for diseases."
     ],
     "coverImage": "/images/thiruvaramangai.png"
+  },
+  {
+    "name": "Thirukkurugur",
+    "slug": "thirukkurugur",
+    "location": "Azhwar Thirunagari",
+    "moolavar": "Adinathan",
+    "thirukkolam": "Standing posture",
+    "utsavar": "Polindu Nindra Piran",
+    "thayar": "Adinathavalli, Kurugur Valli",
+    "vimanam": "Govinda Vimanam",
+    "theertham": "Brahma Theertham, Tamirabarani River",
+    "mangalasasanam": "Nammazhwar, 11 Pasurams",
+    "witnesses": "Brahma, Nammazhwar, Sangadu Thandan, Rishis, Madhurakavi Azhwar.",
+    "festivals": [
+      "This is the birthplace of Nammazhwar.",
+      "He incarnated on the day of the Visaka star in the month of Vaikasi; the chariot festival and Theerthavari are held on that day.",
+      "On the fifth day of the Vaikasi festival, the \"Nava Tirupathi\" Garuda Seva occurs, where the deities of the 9 nearby Divya Desams arrive on Garuda mounts to visit Azhwar Thirunagari."
+    ],
+    "devotees": "One lakh (100,000) devotees visit.",
+    "notes": [
+      "There is a musical stone Nadaswaram (stone pipe) carved from rock at this site.",
+      "The statues of Nammazhwar, Ramanuja, and the Vigraham (deity) made by boiling water (Thamirabarani) are located here."
+    ],
+    "coverImage": "/images/thirukkurugur.png"
+  },
+  {
+    "name": "Srirangam",
+    "slug": "srirangam",
+    "location": "Trichy",
+    "moolavar": "Sri Ranganathan",
+    "thirukkolam": "Bhujanga Sayanam (Reclining posture on a serpent)",
+    "utsavar": "Namperumal",
+    "thayar": "Sri Ranga Nayaki",
+    "vimanam": "Pranavakruthi",
+    "theertham": "",
+    "mangalasasanam": "",
+    "witnesses": "",
+    "festivals": [
+      "On Vaikunda Ekadasi in the month of Margazhi, the Lord appears in the Ratna Angi (Gem-studded armor) through the Paramapada Vaasal (gateway to heaven) to provide darsan."
+    ],
+    "devotees": "More than 1 lakh (100,000) devotees attend.",
+    "notes": [],
+    "coverImage": "/images/srirangam.png"
+  },
+  {
+    "name": "Nachiyar Koil",
+    "slug": "nachiyar-koil",
+    "location": "Kumbakonam",
+    "moolavar": "Thirunarayur Nambi",
+    "thirukkolam": "Standing posture, appearing as if marrying the Goddess.",
+    "utsavar": "Srinivasan",
+    "thayar": "Vanjulavalli",
+    "vimanam": "Srinivasa Vimanam, Hema Vimanam",
+    "theertham": "Mani Mutha Pushkarani",
+    "mangalasasanam": "Thirumangai Azhwar has sung 110 Pasurams.",
+    "witnesses": "",
+    "festivals": [
+      "The Kal Garuda (Stone Garuda) vehicle service occurs twice a year on the fourth day of the Brahmotsavam in the months of Margazhi and Panguni.",
+      "Garuda is adorned with eight snakes as ornaments."
+    ],
+    "devotees": "More than 1 lakh (100,000) people attend.",
+    "notes": [
+      "Only 4 people carry the vehicle from the sanctum. As it moves out, its weight increases, requiring 16 people, then 32 people at the next circuit, and finally 64 people to carry it."
+    ],
+    "coverImage": "/images/nachiyar-koil.png"
   }
 ]
