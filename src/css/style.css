@@ -148,6 +148,13 @@ a:hover {
   font-size: 1.15rem;
 }
 
+.home-header .about-link {
+  display: inline-block;
+  margin-top: var(--spacing-md);
+  font-size: 0.95rem;
+  color: var(--color-accent);
+}
+
 /* ===== Temple Cards Grid ===== */
 .temples-grid {
   display: grid;
@@ -247,6 +254,159 @@ a:hover {
     text-transform: uppercase;
     letter-spacing: 0.05em;
     margin-bottom: 0.25rem;
+  }
+}
+
+/* ===== About Page ===== */
+.about-page {
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: var(--spacing-xl) var(--spacing-lg);
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: var(--spacing-xl);
+}
+
+.about-header h1 {
+  font-family: var(--font-serif);
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: var(--spacing-md);
+}
+
+.about-header .intro {
+  font-size: 1.1rem;
+  color: var(--color-text-secondary);
+  line-height: 1.7;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.stats-cards {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-lg);
+  margin-bottom: var(--spacing-xl);
+}
+
+.stat-card {
+  text-align: center;
+  padding: var(--spacing-lg);
+  background: var(--color-card-bg);
+  border-radius: 8px;
+  min-width: 120px;
+}
+
+.stat-number {
+  display: block;
+  font-family: var(--font-serif);
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.about-section {
+  margin-bottom: var(--spacing-xl);
+}
+
+.about-section h2 {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  margin-bottom: var(--spacing-md);
+  padding-bottom: var(--spacing-sm);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.section-intro {
+  margin-bottom: var(--spacing-md);
+  color: var(--color-text-secondary);
+}
+
+.about-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.about-table td {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.about-table td:last-child {
+  text-align: right;
+  font-weight: 500;
+}
+
+.about-table .subtotal td {
+  font-style: italic;
+  color: var(--color-text-secondary);
+}
+
+.about-table .total td {
+  font-weight: 600;
+  border-top: 2px solid var(--color-text);
+  border-bottom: none;
+}
+
+.posture-list {
+  padding-left: 1.5rem;
+  columns: 2;
+  column-gap: var(--spacing-xl);
+}
+
+.posture-list li {
+  margin-bottom: 0.5rem;
+}
+
+.cta {
+  text-align: center;
+  margin-top: var(--spacing-xl);
+  padding-top: var(--spacing-xl);
+  border-top: 1px solid var(--color-border);
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: var(--color-text);
+  color: var(--color-bg);
+  border-radius: 6px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.cta-button:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+@media (max-width: 640px) {
+  .about-header h1 {
+    font-size: 2rem;
+  }
+
+  .stats-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .stat-card {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .posture-list {
+    columns: 1;
   }
 }
 
