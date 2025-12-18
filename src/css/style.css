@@ -179,13 +179,13 @@ a:hover {
 }
 
 .card-image {
-  height: 180px;
+  height: 240px;
   background-size: cover;
   background-position: center;
 }
 
 .card-content {
-  padding: var(--spacing-lg);
+  padding: var(--spacing-md);
 }
 
 .card-content h2 {
