@@ -1,0 +1,269 @@
+/* ===== CSS Variables ===== */
+:root {
+  --font-serif: 'Source Serif 4', Georgia, serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  
+  --color-bg: #ffffff;
+  --color-text: #1a1a1a;
+  --color-text-secondary: #6b6b6b;
+  --color-border: #e5e5e5;
+  --color-card-bg: #fafafa;
+  --color-accent: #2563eb;
+  
+  --content-width: 720px;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+}
+
+/* ===== Reset & Base ===== */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-text);
+  background: var(--color-bg);
+  line-height: 1.6;
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Temple Page ===== */
+.temple-page {
+  min-height: 100vh;
+}
+
+.cover-image {
+  width: 100%;
+  height: 35vh;
+  min-height: 250px;
+  max-height: 400px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.cover-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, transparent 60%, rgba(0,0,0,0.1));
+}
+
+.content {
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: var(--spacing-xl) var(--spacing-lg);
+}
+
+/* ===== Temple Header ===== */
+.temple-header {
+  margin-bottom: var(--spacing-xl);
+  padding-bottom: var(--spacing-lg);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.temple-header h1 {
+  font-family: var(--font-serif);
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: var(--spacing-sm);
+  letter-spacing: -0.02em;
+}
+
+.temple-header .location {
+  color: var(--color-text-secondary);
+  font-size: 1.1rem;
+}
+
+/* ===== Temple Details ===== */
+.temple-details {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+.detail-row {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.detail-row .label {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.detail-row .value {
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* ===== Note Section ===== */
+.note {
+  margin-top: var(--spacing-lg);
+  padding: var(--spacing-lg);
+  background: var(--color-card-bg);
+  border-radius: 8px;
+  border-left: 3px solid var(--color-text-secondary);
+}
+
+.note-label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin-bottom: var(--spacing-sm);
+}
+
+.note p {
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  font-style: italic;
+  line-height: 1.7;
+}
+
+/* ===== Navigation ===== */
+.back-nav {
+  margin-top: var(--spacing-xl);
+  padding-top: var(--spacing-lg);
+  border-top: 1px solid var(--color-border);
+}
+
+.back-nav a {
+  font-size: 0.95rem;
+  color: var(--color-text-secondary);
+  transition: color 0.2s ease;
+}
+
+.back-nav a:hover {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+/* ===== Home Page ===== */
+.home-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: var(--spacing-xl) var(--spacing-lg);
+}
+
+.home-header {
+  text-align: center;
+  margin-bottom: var(--spacing-xl);
+  padding-bottom: var(--spacing-lg);
+}
+
+.home-header h1 {
+  font-family: var(--font-serif);
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin-bottom: var(--spacing-sm);
+}
+
+.home-header .subtitle {
+  color: var(--color-text-secondary);
+  font-size: 1.15rem;
+}
+
+/* ===== Temple Cards Grid ===== */
+.temples-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: var(--spacing-lg);
+}
+
+.temple-card {
+  display: block;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  color: inherit;
+}
+
+.temple-card:hover {
+  text-decoration: none;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+  transform: translateY(-2px);
+}
+
+.card-image {
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-content {
+  padding: var(--spacing-lg);
+}
+
+.card-content h2 {
+  font-family: var(--font-serif);
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: var(--spacing-sm);
+  line-height: 1.3;
+}
+
+.card-location {
+  color: var(--color-text-secondary);
+  font-size: 0.95rem;
+  margin-bottom: 4px;
+}
+
+.card-deity {
+  color: var(--color-text-secondary);
+  font-size: 0.9rem;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 640px) {
+  .temple-header h1 {
+    font-size: 2rem;
+  }
+  
+  .home-header h1 {
+    font-size: 2.25rem;
+  }
+  
+  .content {
+    padding: var(--spacing-lg) var(--spacing-md);
+  }
+  
+  .temples-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .cover-image {
+    height: 30vh;
+    min-height: 200px;
+  }
+}
+

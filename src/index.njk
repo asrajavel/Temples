@@ -1,0 +1,25 @@
+---
+layout: base.njk
+title: "Divya Desams"
+---
+
+<div class="home-page">
+  <header class="home-header">
+    <h1>Temples</h1>
+    <p class="subtitle">A collection of sacred shrines</p>
+  </header>
+
+  <div class="temples-grid">
+    {% for temple in temples %}
+    <a href="/temples/{{ temple.slug }}/" class="temple-card">
+      <div class="card-image" style="background-image: url('{{ temple.coverImage }}');"></div>
+      <div class="card-content">
+        <h2>{{ temple.name }}</h2>
+        <p class="card-location">{{ temple.location }}</p>
+        <p class="card-deity">{{ temple.moolavar }}</p>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</div>
+

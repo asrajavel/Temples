@@ -1,0 +1,86 @@
+---
+pagination:
+  data: temples
+  size: 1
+  alias: temple
+permalink: "/temples/{{ temple.slug }}/"
+layout: base.njk
+title: "{{ temple.name }}"
+---
+
+<article class="temple-page">
+  <div class="cover-image" style="background-image: url('{{ temple.coverImage }}');">
+    <div class="cover-overlay"></div>
+  </div>
+  
+  <div class="content">
+    <header class="temple-header">
+      <h1>{{ temple.name }}</h1>
+      <p class="location">{{ temple.location }}</p>
+    </header>
+
+    <div class="temple-details">
+      <div class="detail-row">
+        <span class="label">Moolavar (Main Deity)</span>
+        <span class="value">{{ temple.moolavar }}</span>
+      </div>
+
+      <div class="detail-row">
+        <span class="label">Thirukkolam (Posture)</span>
+        <span class="value">{{ temple.thirukkolam }}</span>
+      </div>
+
+      <div class="detail-row">
+        <span class="label">Utsavar (Processional Deity)</span>
+        <span class="value">{{ temple.utsavar }}</span>
+      </div>
+
+      <div class="detail-row">
+        <span class="label">Thayar (Consort)</span>
+        <span class="value">{{ temple.thayar }}</span>
+      </div>
+
+      <div class="detail-row">
+        <span class="label">Vimanam (Tower over Sanctum)</span>
+        <span class="value">{{ temple.vimanam }}</span>
+      </div>
+
+      <div class="detail-row">
+        <span class="label">Theertham (Holy Water)</span>
+        <span class="value">{{ temple.theertham }}</span>
+      </div>
+
+      <div class="detail-row">
+        <span class="label">Mangalasasanam</span>
+        <span class="value">{{ temple.mangalasasanam }}</span>
+      </div>
+
+      <div class="detail-row">
+        <span class="label">Those who witnessed the Vision</span>
+        <span class="value">{{ temple.witnesses }}</span>
+      </div>
+
+      <div class="detail-row">
+        <span class="label">Festival</span>
+        <span class="value">{{ temple.festival }}</span>
+      </div>
+
+      <div class="detail-row">
+        <span class="label">Devotees</span>
+        <span class="value">{{ temple.devotees }}</span>
+      </div>
+
+      {% if temple.note %}
+      <div class="note">
+        <span class="note-label">Note</span>
+        <p>{{ temple.note }}</p>
+      </div>
+      {% endif %}
+    </div>
+
+    <nav class="back-nav">
+      <a href="/">← Back to all temples</a>
+    </nav>
+  </div>
+</article>
+
