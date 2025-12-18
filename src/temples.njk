@@ -28,10 +28,10 @@ title: "{{ temple.name }}"
       <tr><th>Theertham</th><td>{{ temple.theertham }}</td></tr>
       <tr><th>Mangalasasanam</th><td>{{ temple.mangalasasanam }}</td></tr>
       <tr><th>Witnesses</th><td>{{ temple.witnesses }}</td></tr>
-      <tr><th>Festival</th><td>{{ temple.festival }}</td></tr>
+      <tr><th>Festivals</th><td><ul>{% for f in temple.festivals %}<li>{{ f }}</li>{% endfor %}</ul></td></tr>
       <tr><th>Devotees</th><td>{{ temple.devotees }}</td></tr>
-      {% if temple.note %}
-      <tr class="note-row"><th>Note</th><td>{{ temple.note }}</td></tr>
+      {% if temple.notes %}
+      <tr><th>Notes</th><td><ul>{% for n in temple.notes %}<li>{{ n }}</li>{% endfor %}</ul></td></tr>
       {% endif %}
     </table>
 

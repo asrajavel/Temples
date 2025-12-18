@@ -113,8 +113,13 @@ a:hover {
   font-family: var(--font-serif);
 }
 
-.temple-details .note-row td {
-  font-style: italic;
+.temple-details ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.temple-details li {
+  margin-bottom: 0.25rem;
 }
 
 /* ===== Navigation ===== */

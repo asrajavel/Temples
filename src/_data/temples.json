@@ -11,9 +11,13 @@
     "theertham": "Noopura Gangai, also known as Silambaru.",
     "mangalasasanam": "Sung by 6 Azhwars in 128 Pasurams (hymns).",
     "witnesses": "Malayadwaja Pandiyan, Dharma Devathai",
-    "festival": "Chithirai Pournami Festival—the festival where the Lord departs for Madurai to witness the wedding of his sister, Meenakshi.",
+    "festivals": [
+      "Chithirai Pournami Festival—the festival where the Lord departs for Madurai to witness the wedding of his sister, Meenakshi."
+    ],
     "devotees": "10 lakh (1 million) devotees attend.",
-    "note": "There is a belief that every night at midnight, Lord Yama (God of Death) visits this shrine to worship Lord Alagar.",
+    "notes": [
+      "There is a belief that every night at midnight, Lord Yama (God of Death) visits this shrine to worship Lord Alagar."
+    ],
     "coverImage": "/images/thirumalirunjolai.png"
   },
   {
@@ -28,9 +32,17 @@
     "theertham": "Thirumukkulam",
     "mangalasasanam": "Both Periyazhwar and Sri Andal; 2 Pasurams (hymns)",
     "witnesses": "Manduka Muni, Periyazhwar, Sri Andal",
-    "festival": "Throughout the month of Margazhi, the thirty Thiruppavai hymns composed by Sri Andal are recited along with lullabies. In the month of Aadi, the Pooram star (the birth star of Andal) is celebrated grandly. The Brahmotsavam is held very grandly. On the 5th day, the Five Perumals appear in the Garuda Seva, and on the 9th day, the Chariot Festival (Ther) takes place.",
+    "festivals": [
+      "Throughout the month of Margazhi, the thirty Thiruppavai hymns composed by Sri Andal are recited along with lullabies.",
+      "In the month of Aadi, the Pooram star (the birth star of Andal) is celebrated grandly.",
+      "The Brahmotsavam is held very grandly.",
+      "On the 5th day, the Five Perumals appear in the Garuda Seva, and on the 9th day, the Chariot Festival (Ther) takes place."
+    ],
     "devotees": "2 lakh (200,000) devotees attend.",
-    "note": "The temple tower (Gopuram) is 164 feet high and is the official emblem of the Tamil Nadu government. The idol of Lakshmi Narayanan, worshipped by Periyazhwar during his lifetime, is kept and worshipped in a separate shrine today.",
+    "notes": [
+      "The temple tower (Gopuram) is 164 feet high and is the official emblem of the Tamil Nadu government.",
+      "The idol of Lakshmi Narayanan, worshipped by Periyazhwar during his lifetime, is kept and worshipped in a separate shrine today."
+    ],
     "coverImage": "/images/srivilliputhur.png"
   },
   {
@@ -45,9 +57,19 @@
     "theertham": "Chakra Theertham, Krithamala River, Vaigai River",
     "mangalasasanam": "2 Azhwars, 2 Pasurams",
     "witnesses": "Bhrigu Maharishi, Saunaka Maharishi, Periyazhwar",
-    "festival": "Garuda Seva on the full moon day of the month of Aani, Sayana festival, and Mukkani (three fruits) festival. Ennai Kappu festival. The Periyazhwar festival takes place for ten days during the Swathi star in the month of Aani. The Navaratri festival in the month of Purattasi is celebrated grandly.",
+    "festivals": [
+      "Garuda Seva on the full moon day of the month of Aani.",
+      "Sayana festival and Mukkani (three fruits) festival.",
+      "Ennai Kappu festival.",
+      "The Periyazhwar festival takes place for ten days during the Swathi star in the month of Aani.",
+      "The Navaratri festival in the month of Purattasi is celebrated grandly."
+    ],
     "devotees": "Many thousands of devotees visit.",
-    "note": "Among 96 types of Vimanams, the first and most magnificent is the Ashtanga Vimanam. Koodalazhagar is the Lord who gives darsan (Sevai) across the four Yugas. This is the place where Periyazhwar sang the \"Thirupallandu\" (sacred hymn).",
+    "notes": [
+      "Among 96 types of Vimanams, the first and most magnificent is the Ashtanga Vimanam.",
+      "Koodalazhagar is the Lord who gives darsan (Sevai) across the four Yugas.",
+      "This is the place where Periyazhwar sang the \"Thirupallandu\" (sacred hymn)."
+    ],
     "coverImage": "/images/thirukkoodal.png"
   },
   {
@@ -62,9 +84,15 @@
     "theertham": "Indra Theertham, Setru Thamarai Theertham",
     "mangalasasanam": "Nammazhwar, 11 Pasurams",
     "witnesses": "Brahma, Indra, Romasa Maharishi, Bhrigu Maharishi, Markandeya, Garuda, Urvashi, Tilottama, and the King of Sindhu.",
-    "festival": "Two Brahmotsavams are celebrated grandly in the months of Chithirai and Panguni. On Thai Amavasya (New Moon in January/February), a special oil abhishekam (Ennai Kappu) is performed using one \"kottai\" (a large measure) of oil. Once every 6 years, one lakh (100,000) lamps are lit in the temple.",
+    "festivals": [
+      "Two Brahmotsavams are celebrated grandly in the months of Chithirai and Panguni.",
+      "On Thai Amavasya (New Moon in January/February), a special oil abhishekam (Ennai Kappu) is performed using one \"kottai\" (a large measure) of oil.",
+      "Once every 6 years, one lakh (100,000) lamps are lit in the temple."
+    ],
     "devotees": "Many devotees visit.",
-    "note": "The oil used for the Ennai Kappu ceremony is collected in a well and sold to devotees, as it is considered a medicinal cure for diseases.",
+    "notes": [
+      "The oil used for the Ennai Kappu ceremony is collected in a well and sold to devotees, as it is considered a medicinal cure for diseases."
+    ],
     "coverImage": "/images/thiruvaramangai.png"
   }
 ]
