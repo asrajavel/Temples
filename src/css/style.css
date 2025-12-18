@@ -236,22 +236,25 @@ a:hover {
     grid-template-columns: 1fr;
   }
 
-  .temple-details,
-  .temple-details tbody,
-  .temple-details tr,
-  .temple-details th,
-  .temple-details td {
+  .temple-details {
     display: block;
-    width: 100%;
+  }
+
+  .temple-details tbody {
+    display: block;
   }
 
   .temple-details tr {
+    display: flex;
+    flex-direction: column;
     margin-bottom: 1rem;
     padding-bottom: 1rem;
     border-bottom: 1px solid var(--color-border);
   }
 
   .temple-details th {
+    display: block;
+    width: 100%;
     padding: 0 0 0.25rem 0;
     font-size: 0.8rem;
     text-transform: uppercase;
@@ -259,6 +262,8 @@ a:hover {
   }
 
   .temple-details td {
+    display: block;
+    width: 100%;
     padding: 0;
   }
 }
