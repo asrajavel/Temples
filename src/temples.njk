@@ -9,11 +9,11 @@ title: "{{ temple.name }}"
 ---
 
 <article class="temple-page">
-  <div class="cover-image" style="background-image: url('{{ temple.coverImage | url }}');">
-    <div class="cover-overlay"></div>
-  </div>
-  
   <div class="content">
+    <div class="temple-image">
+      <img src="{{ temple.coverImage | url }}" alt="{{ temple.name }}">
+    </div>
+
     <header class="temple-header">
       <h1>{{ temple.name }}</h1>
       <p class="location">{{ temple.location }}</p>
