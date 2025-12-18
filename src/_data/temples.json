@@ -124,15 +124,17 @@
     "slug": "srirangam",
     "location": "Trichy",
     "moolavar": "Sri Ranganathan",
-    "thirukkolam": "Bhujanga Sayanam (Reclining posture on a serpent)",
+    "thirukkolam": "Bhujanga Sayanam (Reclining on a serpent)",
     "utsavar": "Namperumal",
     "thayar": "Sri Ranga Nayaki",
-    "vimanam": "Pranavakruthi",
-    "theertham": "",
-    "mangalasasanam": "",
-    "witnesses": "",
+    "vimanam": "Pranavakruthi Vimanam",
+    "theertham": "Chandra Pushkarani",
+    "mangalasasanam": "11 Azhwars, 247 Pasurams",
+    "witnesses": "Vibhishana, Dharma Varma, Killivalavan, Chandran",
     "festivals": [
-      "On Vaikunda Ekadasi in the month of Margazhi, the Lord appears in the Ratna Angi (Gem-studded armor) through the Paramapada Vaasal (gateway to heaven) to provide darsan."
+      "During the month of Margazhi, \"Pagal Pathu\" and \"Ra Pathu\" festivals are celebrated grandly.",
+      "On Vaikunda Ekadasi, when the \"Ra Pathu\" festival begins, the Lord provides darsan through the Paramapada Vaasal (gateway to heaven) adorned in the Ratna Angi (gem-studded armor).",
+      "It is believed that on the 10th day of the \"Ra Pathu\" festival, Nammazhwar attains Moksha."
     ],
     "devotees": "More than 1 lakh (100,000) devotees attend.",
     "notes": [],
@@ -159,5 +161,72 @@
       "Only 4 people carry the vehicle from the sanctum. As it moves out, its weight increases, requiring 16 people, then 32 people at the next circuit, and finally 64 people to carry it."
     ],
     "coverImage": "/images/nachiyar-koil.png"
+  },
+  {
+    "name": "Thirukkudanthai",
+    "slug": "thirukkudanthai",
+    "location": "Kumbakonam",
+    "moolavar": "Sarangapani",
+    "thirukkolam": "Reclining posture; the posture of slightly raising the body while supporting it with the hands. Known as Utthana Sayana posture.",
+    "utsavar": "Aaraavamudhan",
+    "thayar": "Komalavalli (Padi Thanda Pathini)",
+    "vimanam": "Vaidheega Vimanam",
+    "theertham": "Hema Pushkarani",
+    "mangalasasanam": "Hymns sung by 7 Azhwars; 51 Pasurams (verses).",
+    "witnesses": "",
+    "festivals": [
+      "Once every 12 years, when Jupiter enters the Aquarius (Kumba) zodiac sign, Kumbh Mela is celebrated.",
+      "Chithirai month chariot festival."
+    ],
+    "devotees": "1 million devotees visit. For the Chithirai month chariot festival, 100,000 devotees visit.",
+    "notes": [
+      "In this temple, the main sanctum (Garbhagriha) of the Lord is designed in the shape of a chariot with four wheels, as if pulled by horses. It is constructed entirely of granite."
+    ],
+    "coverImage": "/images/thirukkudanthai.png"
+  },
+  {
+    "name": "Thirukkacchi Athigiri",
+    "slug": "thirukkacchi-athigiri",
+    "location": "Kanchipuram",
+    "moolavar": "Deva Perumal, Athi Varadar",
+    "thirukkolam": "Standing posture",
+    "utsavar": "Sri Varadharaja Perumal",
+    "thayar": "Perundevi Thayar, Mahadevi",
+    "vimanam": "Punyakoti Vimanam",
+    "theertham": "Sri Anantha Saras Theertham (Sri Athigiri Varadar resides within this sacred water)",
+    "mangalasasanam": "Hymns sung by Boothathalvar, Peyalvar, and Thirumalisai Alvar; a total of 7 Pasurams (verses)",
+    "witnesses": "Brahma, Bhrigu Muni, Gajendran, Brihaspati, Adiseshan, King Citra, and Saraswati",
+    "festivals": [
+      "On the third day of the Brahmotsavam held in the Tamil month of Vaikasi, Sri Varadharaja Perumal appears on the Garuda Vahana (mount)."
+    ],
+    "devotees": "200,000 (2 Lakhs) devotees visit.",
+    "notes": [
+      "There are 14 Divya Desams in the city of Kanchi.",
+      "Kanchi is a city where the sound of the Vedas is constantly heard throughout the Divya Desam."
+    ],
+    "coverImage": "/images/thirukkacchi-athigiri.png"
+  },
+  {
+    "name": "Manimada Kovil",
+    "slug": "manimada-kovil",
+    "location": "Sirkazhi (8 km distance)",
+    "moolavar": "Narayanan",
+    "thirukkolam": "Seated posture",
+    "utsavar": "Alatharkariyan",
+    "thayar": "Pundarika Valli Thayar",
+    "vimanam": "Pranava Vimanam",
+    "theertham": "",
+    "mangalasasanam": "Thirumangai Alvar; 12 Pasurams (verses)",
+    "witnesses": "Indra and the 11 Rudras",
+    "festivals": [
+      "On the day after Thai Amavasya, the deities of the 11 Divya Desams assemble at a pandal in front of Manimada Kovil.",
+      "Thirumangai Alvar goes before each deity and performs Mangalasasanam by singing the verses he composed for them.",
+      "The 11 Divya Desam deities then process through the streets on Garuda Vahana."
+    ],
+    "devotees": "100,000 (1 Lakh) devotees visit.",
+    "notes": [
+      "The 11 Divya Desams are situated within a 4 km radius."
+    ],
+    "coverImage": "/images/manimada-kovil.png"
   }
 ]
