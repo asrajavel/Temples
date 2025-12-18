@@ -243,3 +243,11 @@ a:hover {
   }
 }
 
+/* ===== Print Styles ===== */
+@media print {
+  .cover-image {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}
+
