@@ -9,7 +9,7 @@ title: "{{ temple.name }}"
 ---
 
 <article class="temple-page">
-  <div class="cover-image" style="background-image: url('{{ temple.coverImage }}');">
+  <div class="cover-image" style="background-image: url('{{ temple.coverImage | url }}');">
     <div class="cover-overlay"></div>
   </div>
   
@@ -36,7 +36,7 @@ title: "{{ temple.name }}"
     </table>
 
     <nav class="back-nav">
-      <a href="/">← Back to all temples</a>
+      <a href="{{ '/' | url }}">← Back to all temples</a>
     </nav>
   </div>
 </article>

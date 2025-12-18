@@ -3,14 +3,6 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/images");
 
-  // Create a slug filter for URL-friendly names
-  eleventyConfig.addFilter("slug", function(str) {
-    return str
-      .toLowerCase()
-      .replace(/[^\w\s-]/g, '')
-      .replace(/\s+/g, '-');
-  });
-
   return {
     dir: {
       input: "src",
@@ -18,6 +10,7 @@ module.exports = function(eleventyConfig) {
       includes: "_includes",
       data: "_data"
     },
+    pathPrefix: "/Temples/",
     templateFormats: ["njk", "md", "html"],
     htmlTemplateEngine: "njk",
     markdownTemplateEngine: "njk"

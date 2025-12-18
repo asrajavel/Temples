@@ -11,8 +11,8 @@ title: "Divya Desams"
 
   <div class="temples-grid">
     {% for temple in temples %}
-    <a href="/temples/{{ temple.slug }}/" class="temple-card">
-      <div class="card-image" style="background-image: url('{{ temple.coverImage }}');"></div>
+    <a href="{{ '/temples/' | url }}{{ temple.slug }}/" class="temple-card">
+      <div class="card-image" style="background-image: url('{{ temple.coverImage | url }}');"></div>
       <div class="card-content">
         <h2>{{ temple.name }}</h2>
         <p class="card-location">{{ temple.location }}</p>
