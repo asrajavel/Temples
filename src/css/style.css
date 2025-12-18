@@ -94,57 +94,33 @@ a:hover {
   font-size: 1.1rem;
 }
 
-/* ===== Temple Details ===== */
+/* ===== Temple Details Table ===== */
 .temple-details {
-  display: flex;
-  flex-direction: column;
-  gap: var(--spacing-lg);
+  width: 100%;
+  border-collapse: collapse;
 }
 
-.detail-row {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
+.temple-details th,
+.temple-details td {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--color-border);
+  text-align: left;
+  vertical-align: top;
 }
 
-.detail-row .label {
-  font-size: 0.85rem;
+.temple-details th {
+  width: 140px;
   font-weight: 500;
   color: var(--color-text-secondary);
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
+  padding-right: 1rem;
 }
 
-.detail-row .value {
+.temple-details td {
   font-family: var(--font-serif);
-  font-size: 1.1rem;
-  line-height: 1.6;
 }
 
-/* ===== Note Section ===== */
-.note {
-  margin-top: var(--spacing-lg);
-  padding: var(--spacing-lg);
-  background: var(--color-card-bg);
-  border-radius: 8px;
-  border-left: 3px solid var(--color-text-secondary);
-}
-
-.note-label {
-  display: block;
-  font-size: 0.85rem;
-  font-weight: 500;
-  color: var(--color-text-secondary);
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
-  margin-bottom: var(--spacing-sm);
-}
-
-.note p {
-  font-family: var(--font-serif);
-  font-size: 1.05rem;
+.temple-details .note-row td {
   font-style: italic;
-  line-height: 1.7;
 }
 
 /* ===== Navigation ===== */

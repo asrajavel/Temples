@@ -19,64 +19,21 @@ title: "{{ temple.name }}"
       <p class="location">{{ temple.location }}</p>
     </header>
 
-    <div class="temple-details">
-      <div class="detail-row">
-        <span class="label">Moolavar (Main Deity)</span>
-        <span class="value">{{ temple.moolavar }}</span>
-      </div>
-
-      <div class="detail-row">
-        <span class="label">Thirukkolam (Posture)</span>
-        <span class="value">{{ temple.thirukkolam }}</span>
-      </div>
-
-      <div class="detail-row">
-        <span class="label">Utsavar (Processional Deity)</span>
-        <span class="value">{{ temple.utsavar }}</span>
-      </div>
-
-      <div class="detail-row">
-        <span class="label">Thayar (Consort)</span>
-        <span class="value">{{ temple.thayar }}</span>
-      </div>
-
-      <div class="detail-row">
-        <span class="label">Vimanam (Tower over Sanctum)</span>
-        <span class="value">{{ temple.vimanam }}</span>
-      </div>
-
-      <div class="detail-row">
-        <span class="label">Theertham (Holy Water)</span>
-        <span class="value">{{ temple.theertham }}</span>
-      </div>
-
-      <div class="detail-row">
-        <span class="label">Mangalasasanam</span>
-        <span class="value">{{ temple.mangalasasanam }}</span>
-      </div>
-
-      <div class="detail-row">
-        <span class="label">Those who witnessed the Vision</span>
-        <span class="value">{{ temple.witnesses }}</span>
-      </div>
-
-      <div class="detail-row">
-        <span class="label">Festival</span>
-        <span class="value">{{ temple.festival }}</span>
-      </div>
-
-      <div class="detail-row">
-        <span class="label">Devotees</span>
-        <span class="value">{{ temple.devotees }}</span>
-      </div>
-
+    <table class="temple-details">
+      <tr><th>Moolavar</th><td>{{ temple.moolavar }}</td></tr>
+      <tr><th>Thirukkolam</th><td>{{ temple.thirukkolam }}</td></tr>
+      <tr><th>Utsavar</th><td>{{ temple.utsavar }}</td></tr>
+      <tr><th>Thayar</th><td>{{ temple.thayar }}</td></tr>
+      <tr><th>Vimanam</th><td>{{ temple.vimanam }}</td></tr>
+      <tr><th>Theertham</th><td>{{ temple.theertham }}</td></tr>
+      <tr><th>Mangalasasanam</th><td>{{ temple.mangalasasanam }}</td></tr>
+      <tr><th>Witnesses</th><td>{{ temple.witnesses }}</td></tr>
+      <tr><th>Festival</th><td>{{ temple.festival }}</td></tr>
+      <tr><th>Devotees</th><td>{{ temple.devotees }}</td></tr>
       {% if temple.note %}
-      <div class="note">
-        <span class="note-label">Note</span>
-        <p>{{ temple.note }}</p>
-      </div>
+      <tr class="note-row"><th>Note</th><td>{{ temple.note }}</td></tr>
       {% endif %}
-    </div>
+    </table>
 
     <nav class="back-nav">
       <a href="/">← Back to all temples</a>
