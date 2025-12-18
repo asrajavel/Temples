@@ -14,24 +14,94 @@ title: "{{ temple.name }}"
       <img src="{{ temple.coverImage | url }}" alt="{{ temple.name }}">
     </div>
 
+    {% if temple.ta %}
+    <div class="lang-toggle">
+      <button class="lang-btn active" data-lang="en">English</button>
+      <button class="lang-btn" data-lang="ta">தமிழ்</button>
+    </div>
+    {% endif %}
+
     <header class="temple-header">
-      <h1>{{ temple.name }}</h1>
-      <p class="location">{{ temple.location }}</p>
+      <h1>
+        <span class="lang-en">{{ temple.name }}</span>
+        {% if temple.ta %}<span class="lang-ta" hidden>{{ temple.ta.name }}</span>{% endif %}
+      </h1>
+      <p class="location">
+        <span class="lang-en">{{ temple.location }}</span>
+        {% if temple.ta %}<span class="lang-ta" hidden>{{ temple.ta.location }}</span>{% endif %}
+      </p>
     </header>
 
     <table class="temple-details">
-      {% if temple.moolavar %}<tr><th>Moolavar</th><td>{{ temple.moolavar }}</td></tr>{% endif %}
-      {% if temple.thirukkolam %}<tr><th>Thirukkolam</th><td>{{ temple.thirukkolam }}</td></tr>{% endif %}
-      {% if temple.utsavar %}<tr><th>Utsavar</th><td>{{ temple.utsavar }}</td></tr>{% endif %}
-      {% if temple.thayar %}<tr><th>Thayar</th><td>{{ temple.thayar }}</td></tr>{% endif %}
-      {% if temple.vimanam %}<tr><th>Vimanam</th><td>{{ temple.vimanam }}</td></tr>{% endif %}
-      {% if temple.theertham %}<tr><th>Theertham</th><td>{{ temple.theertham }}</td></tr>{% endif %}
-      {% if temple.mangalasasanam %}<tr><th>Mangalasasanam</th><td>{{ temple.mangalasasanam }}</td></tr>{% endif %}
-      {% if temple.witnesses %}<tr><th>Witnesses</th><td>{{ temple.witnesses }}</td></tr>{% endif %}
-      {% if temple.festivals.length %}<tr><th>Festivals</th><td><ul>{% for f in temple.festivals %}<li>{{ f }}</li>{% endfor %}</ul></td></tr>{% endif %}
-      {% if temple.devotees %}<tr><th>Devotees</th><td>{{ temple.devotees }}</td></tr>{% endif %}
-      {% if temple.notes.length %}<tr><th>Notes</th><td><ul>{% for n in temple.notes %}<li>{{ n }}</li>{% endfor %}</ul></td></tr>{% endif %}
+      {% if temple.moolavar %}<tr>
+        <th><span class="lang-en">Moolavar</span>{% if temple.ta %}<span class="lang-ta" hidden>மூலவர்</span>{% endif %}</th>
+        <td><span class="lang-en">{{ temple.moolavar }}</span>{% if temple.ta %}<span class="lang-ta" hidden>{{ temple.ta.moolavar }}</span>{% endif %}</td>
+      </tr>{% endif %}
+      {% if temple.thirukkolam %}<tr>
+        <th><span class="lang-en">Thirukkolam</span>{% if temple.ta %}<span class="lang-ta" hidden>திருக்கோலம்</span>{% endif %}</th>
+        <td><span class="lang-en">{{ temple.thirukkolam }}</span>{% if temple.ta %}<span class="lang-ta" hidden>{{ temple.ta.thirukkolam }}</span>{% endif %}</td>
+      </tr>{% endif %}
+      {% if temple.utsavar %}<tr>
+        <th><span class="lang-en">Utsavar</span>{% if temple.ta %}<span class="lang-ta" hidden>உற்சவர்</span>{% endif %}</th>
+        <td><span class="lang-en">{{ temple.utsavar }}</span>{% if temple.ta %}<span class="lang-ta" hidden>{{ temple.ta.utsavar }}</span>{% endif %}</td>
+      </tr>{% endif %}
+      {% if temple.thayar %}<tr>
+        <th><span class="lang-en">Thayar</span>{% if temple.ta %}<span class="lang-ta" hidden>தாயார்</span>{% endif %}</th>
+        <td><span class="lang-en">{{ temple.thayar }}</span>{% if temple.ta %}<span class="lang-ta" hidden>{{ temple.ta.thayar }}</span>{% endif %}</td>
+      </tr>{% endif %}
+      {% if temple.vimanam %}<tr>
+        <th><span class="lang-en">Vimanam</span>{% if temple.ta %}<span class="lang-ta" hidden>விமானம்</span>{% endif %}</th>
+        <td><span class="lang-en">{{ temple.vimanam }}</span>{% if temple.ta %}<span class="lang-ta" hidden>{{ temple.ta.vimanam }}</span>{% endif %}</td>
+      </tr>{% endif %}
+      {% if temple.theertham %}<tr>
+        <th><span class="lang-en">Theertham</span>{% if temple.ta %}<span class="lang-ta" hidden>தீர்த்தம்</span>{% endif %}</th>
+        <td><span class="lang-en">{{ temple.theertham }}</span>{% if temple.ta %}<span class="lang-ta" hidden>{{ temple.ta.theertham }}</span>{% endif %}</td>
+      </tr>{% endif %}
+      {% if temple.mangalasasanam %}<tr>
+        <th><span class="lang-en">Mangalasasanam</span>{% if temple.ta %}<span class="lang-ta" hidden>மங்களாசாசனம்</span>{% endif %}</th>
+        <td><span class="lang-en">{{ temple.mangalasasanam }}</span>{% if temple.ta %}<span class="lang-ta" hidden>{{ temple.ta.mangalasasanam }}</span>{% endif %}</td>
+      </tr>{% endif %}
+      {% if temple.witnesses %}<tr>
+        <th><span class="lang-en">Witnesses</span>{% if temple.ta %}<span class="lang-ta" hidden>சேவை கண்டவர்கள்</span>{% endif %}</th>
+        <td><span class="lang-en">{{ temple.witnesses }}</span>{% if temple.ta %}<span class="lang-ta" hidden>{{ temple.ta.witnesses }}</span>{% endif %}</td>
+      </tr>{% endif %}
+      {% if temple.festivals.length %}<tr>
+        <th><span class="lang-en">Festivals</span>{% if temple.ta %}<span class="lang-ta" hidden>திருவிழாக்கள்</span>{% endif %}</th>
+        <td>
+          <ul class="lang-en">{% for f in temple.festivals %}<li>{{ f }}</li>{% endfor %}</ul>
+          {% if temple.ta %}<ul class="lang-ta" hidden>{% for f in temple.ta.festivals %}<li>{{ f }}</li>{% endfor %}</ul>{% endif %}
+        </td>
+      </tr>{% endif %}
+      {% if temple.devotees %}<tr>
+        <th><span class="lang-en">Devotees</span>{% if temple.ta %}<span class="lang-ta" hidden>பக்தர்கள்</span>{% endif %}</th>
+        <td><span class="lang-en">{{ temple.devotees }}</span>{% if temple.ta %}<span class="lang-ta" hidden>{{ temple.ta.devotees }}</span>{% endif %}</td>
+      </tr>{% endif %}
+      {% if temple.notes.length %}<tr>
+        <th><span class="lang-en">Notes</span>{% if temple.ta %}<span class="lang-ta" hidden>குறிப்புகள்</span>{% endif %}</th>
+        <td><ul>{% for n in temple.notes %}<li>{{ n }}</li>{% endfor %}</ul></td>
+      </tr>{% endif %}
     </table>
   </div>
 </article>
 
+{% if temple.ta %}
+<script>
+(function() {
+  const btns = document.querySelectorAll('.lang-btn');
+  const enEls = document.querySelectorAll('.lang-en');
+  const taEls = document.querySelectorAll('.lang-ta');
+  
+  function setLang(lang) {
+    btns.forEach(b => b.classList.toggle('active', b.dataset.lang === lang));
+    enEls.forEach(el => el.hidden = lang !== 'en');
+    taEls.forEach(el => el.hidden = lang !== 'ta');
+    localStorage.setItem('lang', lang);
+  }
+  
+  btns.forEach(btn => btn.addEventListener('click', () => setLang(btn.dataset.lang)));
+  
+  const saved = localStorage.getItem('lang');
+  if (saved === 'ta') setLang('ta');
+})();
+</script>
+{% endif %}

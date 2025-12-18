@@ -58,7 +58,33 @@ a:hover {
 }
 
 .temple-image {
-  margin-bottom: var(--spacing-xl);
+  margin-bottom: var(--spacing-lg);
+}
+
+.lang-toggle {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: var(--spacing-lg);
+}
+
+.lang-btn {
+  padding: 0.4rem 0.8rem;
+  border: 1px solid var(--color-border);
+  background: var(--color-bg);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
+
+.lang-btn:hover {
+  border-color: var(--color-text-secondary);
+}
+
+.lang-btn.active {
+  background: var(--color-text);
+  color: var(--color-bg);
+  border-color: var(--color-text);
 }
 
 .temple-image img {
