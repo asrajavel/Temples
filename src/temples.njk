@@ -20,19 +20,17 @@ title: "{{ temple.name }}"
     </header>
 
     <table class="temple-details">
-      <tr><th>Moolavar</th><td>{{ temple.moolavar }}</td></tr>
-      <tr><th>Thirukkolam</th><td>{{ temple.thirukkolam }}</td></tr>
-      <tr><th>Utsavar</th><td>{{ temple.utsavar }}</td></tr>
-      <tr><th>Thayar</th><td>{{ temple.thayar }}</td></tr>
-      <tr><th>Vimanam</th><td>{{ temple.vimanam }}</td></tr>
-      <tr><th>Theertham</th><td>{{ temple.theertham }}</td></tr>
-      <tr><th>Mangalasasanam</th><td>{{ temple.mangalasasanam }}</td></tr>
-      <tr><th>Witnesses</th><td>{{ temple.witnesses }}</td></tr>
-      <tr><th>Festivals</th><td><ul>{% for f in temple.festivals %}<li>{{ f }}</li>{% endfor %}</ul></td></tr>
-      <tr><th>Devotees</th><td>{{ temple.devotees }}</td></tr>
-      {% if temple.notes %}
-      <tr><th>Notes</th><td><ul>{% for n in temple.notes %}<li>{{ n }}</li>{% endfor %}</ul></td></tr>
-      {% endif %}
+      {% if temple.moolavar %}<tr><th>Moolavar</th><td>{{ temple.moolavar }}</td></tr>{% endif %}
+      {% if temple.thirukkolam %}<tr><th>Thirukkolam</th><td>{{ temple.thirukkolam }}</td></tr>{% endif %}
+      {% if temple.utsavar %}<tr><th>Utsavar</th><td>{{ temple.utsavar }}</td></tr>{% endif %}
+      {% if temple.thayar %}<tr><th>Thayar</th><td>{{ temple.thayar }}</td></tr>{% endif %}
+      {% if temple.vimanam %}<tr><th>Vimanam</th><td>{{ temple.vimanam }}</td></tr>{% endif %}
+      {% if temple.theertham %}<tr><th>Theertham</th><td>{{ temple.theertham }}</td></tr>{% endif %}
+      {% if temple.mangalasasanam %}<tr><th>Mangalasasanam</th><td>{{ temple.mangalasasanam }}</td></tr>{% endif %}
+      {% if temple.witnesses %}<tr><th>Witnesses</th><td>{{ temple.witnesses }}</td></tr>{% endif %}
+      {% if temple.festivals.length %}<tr><th>Festivals</th><td><ul>{% for f in temple.festivals %}<li>{{ f }}</li>{% endfor %}</ul></td></tr>{% endif %}
+      {% if temple.devotees %}<tr><th>Devotees</th><td>{{ temple.devotees }}</td></tr>{% endif %}
+      {% if temple.notes.length %}<tr><th>Notes</th><td><ul>{% for n in temple.notes %}<li>{{ n }}</li>{% endfor %}</ul></td></tr>{% endif %}
     </table>
   </div>
 </article>

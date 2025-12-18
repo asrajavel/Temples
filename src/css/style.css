@@ -255,6 +255,24 @@ a:hover {
     letter-spacing: 0.05em;
     margin-bottom: 0.25rem;
   }
+
+  .about-header h1 {
+    font-size: 2rem;
+  }
+
+  .stats-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .stat-card {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .posture-list {
+    columns: 1;
+  }
 }
 
 /* ===== About Page ===== */
@@ -390,23 +408,4 @@ a:hover {
   text-decoration: none;
 }
 
-@media (max-width: 640px) {
-  .about-header h1 {
-    font-size: 2rem;
-  }
-
-  .stats-cards {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .stat-card {
-    width: 100%;
-    max-width: 200px;
-  }
-
-  .posture-list {
-    columns: 1;
-  }
-}
 
