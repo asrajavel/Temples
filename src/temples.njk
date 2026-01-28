@@ -34,7 +34,9 @@ title: "{{ temple.name }}"
     </section>
     {% endif %}
 
-    <table class="temple-details">
+    <section class="details-section">
+      <h2>Temple Details</h2>
+      <table class="temple-details">
       {% if temple.moolavar %}<tr><th>Moolavar</th><td>{{ temple.moolavar }}</td></tr>{% endif %}
       {% if temple.thirukkolam %}<tr><th>Thirukkolam</th><td>{{ temple.thirukkolam }}</td></tr>{% endif %}
       {% if temple.utsavar %}<tr><th>Utsavar</th><td>{{ temple.utsavar }}</td></tr>{% endif %}
@@ -44,6 +46,7 @@ title: "{{ temple.name }}"
       {% if temple.mangalasasanam %}<tr><th>Mangalasasanam</th><td>{{ temple.mangalasasanam }}</td></tr>{% endif %}
       {% if temple.witnesses %}<tr><th>Witnesses</th><td>{{ temple.witnesses }}</td></tr>{% endif %}
       {% if temple.notes.length %}<tr><th>Notes</th><td><ul>{% for n in temple.notes %}<li>{{ n }}</li>{% endfor %}</ul></td></tr>{% endif %}
-    </table>
+      </table>
+    </section>
   </div>
 </article>
