@@ -1,0 +1,57 @@
+---
+layout: base.njk
+title: "Festival Calendar"
+---
+
+<div class="festivals-calendar-page">
+  <header class="calendar-header">
+    <a href="{{ '/' | url }}" class="back-link">← Back to Temples</a>
+    <h1>Festival Calendar</h1>
+    <p class="subtitle">All Divya Desam festivals organized by month</p>
+  </header>
+
+  {% set months = [
+    { "key": "January", "display": "January - February", "matches": ["January-February"] },
+    { "key": "February", "display": "February - March", "matches": ["February-March"] },
+    { "key": "March", "display": "March - April", "matches": ["March-April"] },
+    { "key": "April", "display": "April - May", "matches": ["April-May"] },
+    { "key": "May", "display": "May - June", "matches": ["May-June"] },
+    { "key": "June", "display": "June - July", "matches": ["June-July"] },
+    { "key": "July", "display": "July - August", "matches": ["July-August"] },
+    { "key": "August", "display": "August - September", "matches": ["August-September"] },
+    { "key": "September", "display": "September - October", "matches": ["September-October"] },
+    { "key": "October", "display": "October - November", "matches": ["October-November"] },
+    { "key": "November", "display": "November - December", "matches": ["November-December"] },
+    { "key": "December", "display": "December - January", "matches": ["December-January"] }
+  ] %}
+
+  <div class="calendar-grid">
+    {% for month in months %}
+    <section class="month-section" id="{{ month.key | lower }}">
+      <h2 class="month-title">{{ month.display }}</h2>
+      <div class="month-festivals">
+        {% set hasFestivals = false %}
+        {% for temple in temples %}
+          {% for festival in temple.festivals %}
+            {% if festival.englishMonth in month.matches %}
+              {% set hasFestivals = true %}
+              <div class="calendar-festival-card">
+                <div class="festival-info">
+                  <strong class="festival-title">{{ festival.name }}</strong>
+                  <a href="{{ '/' | url }}{{ temple.slug }}/" class="temple-link">{{ temple.name }}</a>
+                  <span class="temple-location">Location: {{ temple.location }}</span>
+                  {% if festival.tamilDate %}<span class="tamil-date">Tamil Date: {{ festival.tamilDate }}</span>{% endif %}
+                </div>
+                {% if festival.devotees %}<span class="devotees-badge">{{ festival.devotees }}</span>{% endif %}
+              </div>
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+        {% if not hasFestivals %}
+          <p class="no-festivals">No festivals listed for this period</p>
+        {% endif %}
+      </div>
+    </section>
+    {% endfor %}
+  </div>
+</div>

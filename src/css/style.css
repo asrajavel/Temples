@@ -202,8 +202,13 @@ a:hover {
 .home-header .about-link {
   display: inline-block;
   margin-top: var(--spacing-md);
+  margin-right: var(--spacing-md);
   font-size: 0.95rem;
   color: var(--color-accent);
+}
+
+.home-header .about-link:last-child {
+  margin-right: 0;
 }
 
 /* ===== Temple Cards Grid ===== */
@@ -468,6 +473,136 @@ a:hover {
 .cta-button:hover {
   opacity: 0.8;
   text-decoration: none;
+}
+
+/* ===== Festival Calendar Page ===== */
+.festivals-calendar-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: var(--spacing-xl) var(--spacing-lg);
+}
+
+.calendar-header {
+  text-align: center;
+  margin-bottom: var(--spacing-xl);
+}
+
+.calendar-header .back-link {
+  display: inline-block;
+  margin-bottom: var(--spacing-md);
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+}
+
+.calendar-header .back-link:hover {
+  color: var(--color-accent);
+}
+
+.calendar-header h1 {
+  font-family: var(--font-serif);
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: var(--spacing-sm);
+}
+
+.calendar-header .subtitle {
+  color: var(--color-text-secondary);
+  font-size: 1.1rem;
+}
+
+.calendar-grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xl);
+}
+
+.month-section {
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.month-title {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding: var(--spacing-md) var(--spacing-lg);
+  background: var(--color-card-bg);
+  border-bottom: 1px solid var(--color-border);
+  margin: 0;
+}
+
+.month-festivals {
+  padding: var(--spacing-md) var(--spacing-lg);
+}
+
+.calendar-festival-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: var(--spacing-md) 0;
+  border-bottom: 1px solid var(--color-border);
+  gap: var(--spacing-md);
+}
+
+.calendar-festival-card:last-child {
+  border-bottom: none;
+}
+
+.festival-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.festival-title {
+  font-size: 1rem;
+  color: var(--color-text);
+}
+
+.temple-link {
+  font-size: 0.9rem;
+  color: var(--color-accent);
+}
+
+.temple-location {
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+}
+
+.tamil-date {
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+}
+
+.devotees-badge {
+  font-size: 0.8rem;
+  color: var(--color-text-secondary);
+  background: var(--color-card-bg);
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.no-festivals {
+  color: var(--color-text-secondary);
+  font-style: italic;
+  padding: var(--spacing-sm) 0;
+}
+
+@media (max-width: 640px) {
+  .calendar-header h1 {
+    font-size: 2rem;
+  }
+  
+  .calendar-festival-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .devotees-badge {
+    margin-top: 0.5rem;
+  }
 }
 
 
