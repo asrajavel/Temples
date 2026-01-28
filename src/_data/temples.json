@@ -12,9 +12,13 @@
     "mangalasasanam": "Sung by 6 Azhwars in 128 Pasurams (hymns).",
     "witnesses": "Malayadwaja Pandiyan, Dharma Devathai",
     "festivals": [
-      "Chithirai Pournami Festival—the festival where the Lord departs for Madurai to witness the wedding of his sister, Meenakshi."
+      {
+        "name": "Chithirai Pournami Festival",
+        "description": "The festival where the Lord departs for Madurai to witness the wedding of his sister, Meenakshi.",
+        "tamilDate": "Chithirai Pournami",
+        "devotees": "10 lakh (1 million)"
+      }
     ],
-    "devotees": "10 lakh (1 million) devotees attend.",
     "notes": [
       "There is a belief that every night at midnight, Lord Yama (God of Death) visits this shrine to worship Lord Alagar."
     ],
@@ -33,12 +37,25 @@
     "mangalasasanam": "Both Periyazhwar and Sri Andal; 2 Pasurams (hymns)",
     "witnesses": "Manduka Muni, Periyazhwar, Sri Andal",
     "festivals": [
-      "Throughout the month of Margazhi, the thirty Thiruppavai hymns composed by Sri Andal are recited along with lullabies.",
-      "In the month of Aadi, the Pooram star (the birth star of Andal) is celebrated grandly.",
-      "The Brahmotsavam is held very grandly.",
-      "On the 5th day, the Five Perumals appear in the Garuda Seva, and on the 9th day, the Chariot Festival (Ther) takes place."
+      {
+        "name": "Thiruppavai Month",
+        "description": "The thirty Thiruppavai hymns composed by Sri Andal are recited along with lullabies.",
+        "tamilDate": "Margazhi month",
+        "devotees": ""
+      },
+      {
+        "name": "Andal Jayanthi",
+        "description": "The birth star of Andal (Pooram) is celebrated grandly.",
+        "tamilDate": "Aadi Pooram",
+        "devotees": ""
+      },
+      {
+        "name": "Brahmotsavam",
+        "description": "On the 5th day, the Five Perumals appear in the Garuda Seva, and on the 9th day, the Chariot Festival (Ther) takes place.",
+        "tamilDate": "",
+        "devotees": "2 lakh (200,000)"
+      }
     ],
-    "devotees": "2 lakh (200,000) devotees attend.",
     "notes": [
       "The temple tower (Gopuram) is 164 feet high and is the official emblem of the Tamil Nadu government.",
       "The idol of Lakshmi Narayanan, worshipped by Periyazhwar during his lifetime, is kept and worshipped in a separate shrine today."
@@ -58,13 +75,37 @@
     "mangalasasanam": "2 Azhwars, 2 Pasurams",
     "witnesses": "Bhrigu Maharishi, Saunaka Maharishi, Periyazhwar",
     "festivals": [
-      "Garuda Seva on the full moon day of the month of Aani.",
-      "Sayana festival and Mukkani (three fruits) festival.",
-      "Ennai Kappu festival.",
-      "The Periyazhwar festival takes place for ten days during the Swathi star in the month of Aani.",
-      "The Navaratri festival in the month of Purattasi is celebrated grandly."
+      {
+        "name": "Garuda Seva",
+        "description": "Garuda Seva on the full moon day.",
+        "tamilDate": "Aani Pournami",
+        "devotees": ""
+      },
+      {
+        "name": "Sayana Festival",
+        "description": "Sayana festival and Mukkani (three fruits) festival.",
+        "tamilDate": "",
+        "devotees": ""
+      },
+      {
+        "name": "Ennai Kappu",
+        "description": "Oil abhishekam festival.",
+        "tamilDate": "",
+        "devotees": ""
+      },
+      {
+        "name": "Periyazhwar Festival",
+        "description": "Ten-day festival during the Swathi star. This is the place where Periyazhwar sang the \"Thirupallandu\".",
+        "tamilDate": "Aani Swathi (10 days)",
+        "devotees": ""
+      },
+      {
+        "name": "Navaratri",
+        "description": "The Navaratri festival is celebrated grandly.",
+        "tamilDate": "Purattasi",
+        "devotees": "Many thousands"
+      }
     ],
-    "devotees": "Many thousands of devotees visit.",
     "notes": [
       "Among 96 types of Vimanams, the first and most magnificent is the Ashtanga Vimanam.",
       "Koodalazhagar is the Lord who gives darsan (Sevai) across the four Yugas.",
@@ -85,11 +126,31 @@
     "mangalasasanam": "Nammazhwar, 11 Pasurams",
     "witnesses": "Brahma, Indra, Romasa Maharishi, Bhrigu Maharishi, Markandeya, Garuda, Urvashi, Tilottama, and the King of Sindhu.",
     "festivals": [
-      "Two Brahmotsavams are celebrated grandly in the months of Chithirai and Panguni.",
-      "On Thai Amavasya (New Moon in January/February), a special oil abhishekam (Ennai Kappu) is performed using one \"kottai\" (a large measure) of oil.",
-      "Once every 6 years, one lakh (100,000) lamps are lit in the temple."
+      {
+        "name": "Brahmotsavam (Chithirai)",
+        "description": "Brahmotsavam celebrated grandly.",
+        "tamilDate": "Chithirai",
+        "devotees": ""
+      },
+      {
+        "name": "Brahmotsavam (Panguni)",
+        "description": "Brahmotsavam celebrated grandly.",
+        "tamilDate": "Panguni",
+        "devotees": ""
+      },
+      {
+        "name": "Ennai Kappu",
+        "description": "A special oil abhishekam is performed using one \"kottai\" (a large measure) of oil. The oil is collected in a well and sold to devotees, as it is considered a medicinal cure for diseases.",
+        "tamilDate": "Thai Amavasya",
+        "devotees": ""
+      },
+      {
+        "name": "Lakh Deepam",
+        "description": "Once every 6 years, one lakh (100,000) lamps are lit in the temple.",
+        "tamilDate": "Once every 6 years",
+        "devotees": ""
+      }
     ],
-    "devotees": "Many devotees visit.",
     "notes": [
       "The oil used for the Ennai Kappu ceremony is collected in a well and sold to devotees, as it is considered a medicinal cure for diseases."
     ],
@@ -108,11 +169,19 @@
     "mangalasasanam": "Nammazhwar, 11 Pasurams",
     "witnesses": "Brahma, Nammazhwar, Sangadu Thandan, Rishis, Madhurakavi Azhwar.",
     "festivals": [
-      "This is the birthplace of Nammazhwar.",
-      "He incarnated on the day of the Visaka star in the month of Vaikasi; the chariot festival and Theerthavari are held on that day.",
-      "On the fifth day of the Vaikasi festival, the \"Nava Tirupathi\" Garuda Seva occurs, where the deities of the 9 nearby Divya Desams arrive on Garuda mounts to visit Azhwar Thirunagari."
+      {
+        "name": "Nammazhwar Jayanthi",
+        "description": "This is the birthplace of Nammazhwar. Chariot festival and Theerthavari are held on his birth star.",
+        "tamilDate": "Vaikasi Visaka",
+        "devotees": "1 lakh (100,000)"
+      },
+      {
+        "name": "Nava Tirupathi Garuda Seva",
+        "description": "The deities of the 9 nearby Divya Desams arrive on Garuda mounts to visit Azhwar Thirunagari.",
+        "tamilDate": "Vaikasi (5th day)",
+        "devotees": ""
+      }
     ],
-    "devotees": "One lakh (100,000) devotees visit.",
     "notes": [
       "There is a musical stone Nadaswaram (stone pipe) carved from rock at this site.",
       "The statues of Nammazhwar, Ramanuja, and the Vigraham (deity) made by boiling water (Thamirabarani) are located here."
@@ -132,11 +201,25 @@
     "mangalasasanam": "11 Azhwars, 247 Pasurams",
     "witnesses": "Vibhishana, Dharma Varma, Killivalavan, Chandran",
     "festivals": [
-      "During the month of Margazhi, \"Pagal Pathu\" and \"Ra Pathu\" festivals are celebrated grandly.",
-      "On Vaikunda Ekadasi, when the \"Ra Pathu\" festival begins, the Lord provides darsan through the Paramapada Vaasal (gateway to heaven) adorned in the Ratna Angi (gem-studded armor).",
-      "It is believed that on the 10th day of the \"Ra Pathu\" festival, Nammazhwar attains Moksha."
+      {
+        "name": "Pagal Pathu",
+        "description": "Ten-day festival during the day.",
+        "tamilDate": "Margazhi",
+        "devotees": ""
+      },
+      {
+        "name": "Ra Pathu",
+        "description": "Ten-day night festival. On the 10th day, it is believed that Nammazhwar attains Moksha.",
+        "tamilDate": "Margazhi",
+        "devotees": ""
+      },
+      {
+        "name": "Vaikunda Ekadasi",
+        "description": "The Lord provides darsan through the Paramapada Vaasal (gateway to heaven) adorned in the Ratna Angi (gem-studded armor).",
+        "tamilDate": "Margazhi Ekadasi",
+        "devotees": "More than 1 lakh (100,000)"
+      }
     ],
-    "devotees": "More than 1 lakh (100,000) devotees attend.",
     "notes": [],
     "coverImage": "/images/srirangam.png"
   },
@@ -153,10 +236,19 @@
     "mangalasasanam": "Thirumangai Azhwar has sung 110 Pasurams.",
     "witnesses": "Medhavi Munivar, Brahma",
     "festivals": [
-      "The Kal Garuda (Stone Garuda) vehicle service occurs twice a year on the fourth day of the Brahmotsavam in the months of Margazhi and Panguni.",
-      "Garuda is adorned with eight snakes as ornaments."
+      {
+        "name": "Kal Garuda Seva (Margazhi)",
+        "description": "The Kal Garuda (Stone Garuda) vehicle service on the 4th day of Brahmotsavam. Garuda is adorned with eight snakes as ornaments.",
+        "tamilDate": "Margazhi (4th day of Brahmotsavam)",
+        "devotees": "More than 1 lakh (100,000)"
+      },
+      {
+        "name": "Kal Garuda Seva (Panguni)",
+        "description": "The Kal Garuda vehicle service on the 4th day of Brahmotsavam.",
+        "tamilDate": "Panguni (4th day of Brahmotsavam)",
+        "devotees": ""
+      }
     ],
-    "devotees": "More than 1 lakh (100,000) people attend.",
     "notes": [
       "Only 4 people carry the vehicle from the sanctum. As it moves out, its weight increases, requiring 16 people, then 32 people at the next circuit, and finally 64 people to carry it."
     ],
@@ -175,10 +267,19 @@
     "mangalasasanam": "Hymns sung by 7 Azhwars; 51 Pasurams (verses).",
     "witnesses": "Hema Maharishi",
     "festivals": [
-      "Once every 12 years, when Jupiter enters the Aquarius (Kumba) zodiac sign, Kumbh Mela is celebrated.",
-      "Chithirai month chariot festival."
+      {
+        "name": "Kumbh Mela",
+        "description": "When Jupiter enters the Aquarius (Kumba) zodiac sign, Kumbh Mela is celebrated.",
+        "tamilDate": "Once every 12 years",
+        "devotees": "1 million"
+      },
+      {
+        "name": "Chariot Festival",
+        "description": "Grand chariot festival.",
+        "tamilDate": "Chithirai",
+        "devotees": "1 lakh (100,000)"
+      }
     ],
-    "devotees": "1 million devotees visit. For the Chithirai month chariot festival, 100,000 devotees visit.",
     "notes": [
       "In this temple, the main sanctum (Garbhagriha) of the Lord is designed in the shape of a chariot with four wheels, as if pulled by horses. It is constructed entirely of granite."
     ],
@@ -197,9 +298,13 @@
     "mangalasasanam": "Hymns sung by Boothathalvar, Peyalvar, and Thirumalisai Alvar; a total of 7 Pasurams (verses)",
     "witnesses": "Brahma, Bhrigu Muni, Gajendran, Brihaspati, Adiseshan, King Citra, and Saraswati",
     "festivals": [
-      "On the third day of the Brahmotsavam held in the Tamil month of Vaikasi, Sri Varadharaja Perumal appears on the Garuda Vahana (mount)."
+      {
+        "name": "Garuda Seva",
+        "description": "Sri Varadharaja Perumal appears on the Garuda Vahana (mount) on the 3rd day of Brahmotsavam.",
+        "tamilDate": "Vaikasi (3rd day of Brahmotsavam)",
+        "devotees": "2 lakh (200,000)"
+      }
     ],
-    "devotees": "200,000 (2 Lakhs) devotees visit.",
     "notes": [
       "There are 14 Divya Desams in the city of Kanchi.",
       "Kanchi is a city where the sound of the Vedas is constantly heard throughout the Divya Desam."
@@ -219,11 +324,13 @@
     "mangalasasanam": "Thirumangai Alvar; 12 Pasurams (verses)",
     "witnesses": "Indra and the 11 Rudras",
     "festivals": [
-      "On the day after Thai Amavasya, the deities of the 11 Divya Desams assemble at a pandal in front of Manimada Kovil.",
-      "Thirumangai Alvar goes before each deity and performs Mangalasasanam by singing the verses he composed for them.",
-      "The 11 Divya Desam deities then process through the streets on Garuda Vahana."
+      {
+        "name": "11 Garuda Seva",
+        "description": "The deities of the 11 Divya Desams assemble at a pandal in front of Manimada Kovil. Thirumangai Alvar performs Mangalasasanam for each deity. The 11 Divya Desam deities then process through the streets on Garuda Vahana.",
+        "tamilDate": "Day after Thai Amavasya",
+        "devotees": "1 lakh (100,000)"
+      }
     ],
-    "devotees": "100,000 (1 Lakh) devotees visit.",
     "notes": [
       "The 11 Divya Desams are situated within a 4 km radius."
     ],

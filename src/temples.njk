@@ -19,6 +19,20 @@ title: "{{ temple.name }}"
       <p class="location">{{ temple.location }}</p>
     </header>
 
+    {% if temple.festivals.length %}
+    <section class="festivals-section">
+      <h2>Festivals</h2>
+      {% for f in temple.festivals %}
+      <div class="festival-row">
+        <strong class="festival-name">{{ f.name }}</strong>
+        {% if f.tamilDate %}<p class="festival-date"><span class="date-label">Tamil Date:</span> {{ f.tamilDate }}</p>{% endif %}
+        {% if f.devotees %}<p class="festival-devotees">👥 {{ f.devotees }}</p>{% endif %}
+        {% if f.description %}<p class="festival-desc">{{ f.description }}</p>{% endif %}
+      </div>
+      {% endfor %}
+    </section>
+    {% endif %}
+
     <table class="temple-details">
       {% if temple.moolavar %}<tr><th>Moolavar</th><td>{{ temple.moolavar }}</td></tr>{% endif %}
       {% if temple.thirukkolam %}<tr><th>Thirukkolam</th><td>{{ temple.thirukkolam }}</td></tr>{% endif %}
@@ -28,10 +42,7 @@ title: "{{ temple.name }}"
       {% if temple.theertham %}<tr><th>Theertham</th><td>{{ temple.theertham }}</td></tr>{% endif %}
       {% if temple.mangalasasanam %}<tr><th>Mangalasasanam</th><td>{{ temple.mangalasasanam }}</td></tr>{% endif %}
       {% if temple.witnesses %}<tr><th>Witnesses</th><td>{{ temple.witnesses }}</td></tr>{% endif %}
-      {% if temple.festivals.length %}<tr><th>Festivals</th><td><ul>{% for f in temple.festivals %}<li>{{ f }}</li>{% endfor %}</ul></td></tr>{% endif %}
-      {% if temple.devotees %}<tr><th>Devotees</th><td>{{ temple.devotees }}</td></tr>{% endif %}
       {% if temple.notes.length %}<tr><th>Notes</th><td><ul>{% for n in temple.notes %}<li>{{ n }}</li>{% endfor %}</ul></td></tr>{% endif %}
     </table>
   </div>
 </article>
-
