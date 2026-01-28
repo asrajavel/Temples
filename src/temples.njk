@@ -26,6 +26,7 @@ title: "{{ temple.name }}"
       <div class="festival-row">
         <strong class="festival-name">{{ f.name }}</strong>
         {% if f.tamilDate %}<p class="festival-date"><span class="date-label">Tamil Date:</span> {{ f.tamilDate }}</p>{% endif %}
+        {% if f.englishMonth %}<p class="festival-date"><span class="date-label">English Month:</span> {{ f.englishMonth }}</p>{% endif %}
         {% if f.devotees %}<p class="festival-devotees">👥 {{ f.devotees }}</p>{% endif %}
         {% if f.description %}<p class="festival-desc">{{ f.description }}</p>{% endif %}
       </div>
