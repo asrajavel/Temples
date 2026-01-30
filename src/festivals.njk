@@ -53,5 +53,31 @@ title: "Festival Calendar"
       </div>
     </section>
     {% endfor %}
+
+    <section class="month-section other-festivals" id="other">
+      <h2 class="month-title">Other Festivals <span class="month-subtitle">(periodic / date not added)</span></h2>
+      <div class="month-festivals">
+        {% set hasOtherFestivals = false %}
+        {% for temple in temples %}
+          {% for festival in temple.festivals %}
+            {% if not festival.englishMonth or festival.englishMonth == "" %}
+              {% set hasOtherFestivals = true %}
+              <div class="calendar-festival-card">
+                <div class="festival-info">
+                  <strong class="festival-title">{{ festival.name }}</strong>
+                  <a href="{{ '/' | url }}{{ temple.slug }}/" class="temple-link">{{ temple.name }}</a>
+                  <span class="temple-location">Location: {{ temple.location }}</span>
+                  {% if festival.tamilDate %}<span class="tamil-date">{{ festival.tamilDate }}</span>{% endif %}
+                </div>
+                {% if festival.devotees %}<span class="devotees-badge">{{ festival.devotees }}</span>{% endif %}
+              </div>
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+        {% if not hasOtherFestivals %}
+          <p class="no-festivals">No other festivals listed</p>
+        {% endif %}
+      </div>
+    </section>
   </div>
 </div>
