@@ -43,20 +43,20 @@
         "description": "The thirty Thiruppavai hymns composed by Sri Andal are recited along with lullabies.",
         "tamilDate": "Margazhi month",
         "englishMonth": "December-January",
-        "devotees": ""
+        "devotees": "1 lakh (100,000)"
       },
       {
         "name": "Andal Jayanthi",
         "description": "The birth star of Andal (Pooram) is celebrated grandly.",
         "tamilDate": "Aadi Pooram",
         "englishMonth": "July-August",
-        "devotees": ""
+        "devotees": "1 lakh (100,000)"
       },
       {
         "name": "Brahmotsavam",
         "description": "On the 5th day, the Five Perumals appear in the Garuda Seva, and on the 9th day, the Chariot Festival (Ther) takes place.",
-        "tamilDate": "",
-        "englishMonth": "",
+        "tamilDate": "Aadi month",
+        "englishMonth": "July-August",
         "devotees": "2 lakh (200,000)"
       }
     ],
@@ -84,28 +84,28 @@
         "description": "Garuda Seva on the full moon day.",
         "tamilDate": "Aani Pournami",
         "englishMonth": "June-July",
-        "devotees": ""
+        "devotees": "2 lakh (200,000)"
       },
       {
         "name": "Sayana Festival",
         "description": "Sayana festival and Mukkani (three fruits) festival.",
-        "tamilDate": "",
-        "englishMonth": "",
-        "devotees": ""
+        "tamilDate": "Aani month",
+        "englishMonth": "June-July",
+        "devotees": "2 lakh (200,000)"
       },
       {
         "name": "Ennai Kappu",
         "description": "Oil abhishekam festival.",
-        "tamilDate": "",
-        "englishMonth": "",
-        "devotees": ""
+        "tamilDate": "Aani month",
+        "englishMonth": "June-July",
+        "devotees": "2 lakh (200,000)"
       },
       {
         "name": "Periyazhwar Festival",
         "description": "Ten-day festival during the Swathi star. This is the place where Periyazhwar sang the \"Thirupallandu\".",
         "tamilDate": "Aani Swathi (10 days)",
         "englishMonth": "June-July",
-        "devotees": ""
+        "devotees": "2 lakh (200,000)"
       },
       {
         "name": "Navaratri",
@@ -140,28 +140,28 @@
         "description": "Brahmotsavam celebrated grandly.",
         "tamilDate": "Chithirai",
         "englishMonth": "April-May",
-        "devotees": ""
+        "devotees": "1 lakh (100,000)"
       },
       {
         "name": "Brahmotsavam (Panguni)",
         "description": "Brahmotsavam celebrated grandly.",
         "tamilDate": "Panguni",
         "englishMonth": "March-April",
-        "devotees": ""
+        "devotees": "1 lakh (100,000)"
       },
       {
         "name": "Ennai Kappu",
         "description": "A special oil abhishekam is performed using one \"kottai\" (a large measure) of oil. The oil is collected in a well and sold to devotees, as it is considered a medicinal cure for diseases.",
         "tamilDate": "Thai Amavasya",
         "englishMonth": "January-February",
-        "devotees": ""
+        "devotees": "1 lakh (100,000)"
       },
       {
         "name": "Lakh Deepam",
         "description": "Once every 6 years, one lakh (100,000) lamps are lit in the temple.",
         "tamilDate": "Once every 6 years",
-        "englishMonth": "",
-        "devotees": ""
+        "englishMonth": "January-February",
+        "devotees": "1 lakh (100,000)"
       }
     ],
     "notes": [
@@ -194,7 +194,7 @@
         "description": "The deities of the 9 nearby Divya Desams arrive on Garuda mounts to visit Azhwar Thirunagari.",
         "tamilDate": "Vaikasi (5th day)",
         "englishMonth": "May-June",
-        "devotees": ""
+        "devotees": "2 lakh (200,000)"
       }
     ],
     "notes": [
@@ -221,14 +221,14 @@
         "description": "Ten-day festival during the day.",
         "tamilDate": "Margazhi",
         "englishMonth": "December-January",
-        "devotees": ""
+        "devotees": "5 lakh (500,000)"
       },
       {
         "name": "Ra Pathu",
         "description": "Ten-day night festival. On the 10th day, it is believed that Nammazhwar attains Moksha.",
         "tamilDate": "Margazhi",
         "englishMonth": "December-January",
-        "devotees": ""
+        "devotees": "5 lakh (500,000)"
       },
       {
         "name": "Vaikunda Ekadasi",
@@ -266,7 +266,7 @@
         "description": "The Kal Garuda vehicle service on the 4th day of Brahmotsavam.",
         "tamilDate": "Panguni (4th day of Brahmotsavam)",
         "englishMonth": "March-April",
-        "devotees": ""
+        "devotees": "2 lakh (200,000)"
       }
     ],
     "notes": [
@@ -291,7 +291,7 @@
         "name": "Kumbh Mela",
         "description": "When Jupiter enters the Aquarius (Kumba) zodiac sign, Kumbh Mela is celebrated.",
         "tamilDate": "Once every 12 years",
-        "englishMonth": "",
+        "englishMonth": "April-May",
         "devotees": "1 million"
       },
       {
